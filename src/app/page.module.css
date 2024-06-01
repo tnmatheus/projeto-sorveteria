@@ -1,7 +1,17 @@
 .main {
   background-color: #f9db79;
   background-image: url(../../public/banner-home.png);
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: cover;
   height: 100vh;
+}
+
+.container_home h1 {
+  padding-top: 40vh;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
+  text-transform: uppercase;
+  font-size: 80px;
 }
