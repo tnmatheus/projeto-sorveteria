@@ -1,0 +1,7 @@
+.main {
+  background-color: #f9db79;
+  background-image: url(../../public/banner-home.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 100vh;
+}

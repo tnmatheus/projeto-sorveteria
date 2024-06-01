@@ -6,11 +6,17 @@ import styles from "@/app/componentes/Topo/Topo.module.css";
 export default function Topo() {
   return (
     <header className={styles.topo}>
-      <Image src={Logo} />
+      <Image className={styles.logo} src={Logo} />
       <nav>
-        <Link href="/">Home</Link>
-        <Link href="/sabores">Sabores</Link>
-        <Link href="/sobre">Sobre</Link>
+        <Link className={styles.link_home} href="/">
+          Home
+        </Link>
+        <Link className={styles.link_sabores} href="/sabores">
+          Sabores
+        </Link>
+        <Link className={styles.link_sobre} href="/sobre">
+          Sobre
+        </Link>
       </nav>
     </header>
   );
