@@ -1,0 +1,68 @@
+.secao_banner {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../../../public/banner-sobre.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.texto_banner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.texto_banner h1 {
+  color: #fff;
+  text-shadow: 3px 5px 2px #474747;
+  text-transform: uppercase;
+  font-size: 100px;
+}
+
+.secao_sobre {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container_textos {
+  max-width: 1024px;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_textos h2 {
+  font-size: 32px;
+}
+
+.container_textos span {
+  font-size: 20px;
+}
+
+.container_textos p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.imagens_sobre {
+  display: flex;
+  width: 100%;
+}
+
+.imagem {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
