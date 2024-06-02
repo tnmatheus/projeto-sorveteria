@@ -14,7 +14,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.card_home}>
+      <section className={styles.card_home_a}>
         <Image
           className={styles.imagem_home}
           src={image1}
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.card_home}>
+      <section className={styles.card_home_b}>
         <div className={styles.container_textos}>
           <h2>NOSSOS EVENTOS</h2>
           <span>Delicias com sorvete!</span>
@@ -51,7 +51,7 @@ export default function Home() {
         />
       </section>
 
-      <section className={styles.card_home}>
+      <section className={styles.card_home_c}>
         <Image
           className={styles.imagem_home}
           src={image3}
