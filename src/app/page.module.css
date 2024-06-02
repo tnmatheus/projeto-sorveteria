@@ -25,3 +25,37 @@
   text-transform: uppercase;
   font-size: 100px;
 }
+
+.card_home {
+  display: flex;
+  width: 100%;
+}
+
+.container_textos {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 100px;
+}
+
+.imagem_home {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.container_textos h2 {
+  font-size: 36px;
+}
+
+.container_textos span {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.container_textos p {
+  font-size: 16px;
+}
