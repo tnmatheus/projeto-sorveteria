@@ -1,0 +1,72 @@
+.secao_banner {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../../../public/banner-sabores.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.texto_banner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.texto_banner h1 {
+  color: #fff;
+  text-shadow: 3px 5px 2px #474747;
+  text-transform: uppercase;
+  font-size: 100px;
+}
+
+.secao_sabores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  padding: 100px 20px;
+}
+
+.container_cards {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.card_sabores {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 15px 2px #d9dde1;
+}
+
+.card_sabores h1 {
+  font-size: 18px;
+}
+
+.card_sabores p {
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+}
+
+.imagem_sorvete {
+  width: 100%;
+  height: auto;
+}
