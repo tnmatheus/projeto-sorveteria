@@ -1,0 +1,31 @@
+.container_footer {
+  display: flex;
+  padding: 80px 20px;
+  background-color: #000;
+  justify-content: space-around;
+}
+
+.footer p {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  font-size: 16px;
+}
+
+.logo_rodape {
+  width: 100px;
+  height: auto;
+}
+
+.card_textos {
+  color: #fff;
+  width: 20%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card_textos h2 {
+  font-size: 18px;
+}
